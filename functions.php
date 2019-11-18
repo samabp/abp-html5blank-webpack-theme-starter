@@ -12,6 +12,15 @@
 // Load any external files you have here
 
 /*------------------------------------*\
+  Overall Site Options
+\*------------------------------------*/
+
+if ( function_exists('acf_add_options_page') ) {
+    acf_add_options_page();
+    acf_set_options_page_menu("Theme Settings");
+}
+
+/*------------------------------------*\
 	Theme Support
 \*------------------------------------*/
 
